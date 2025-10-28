@@ -1,0 +1,9 @@
+23:35:41.747 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /_rels/.rels
+23:35:41.778 [main] INFO  testCases.TC003_LoginTestDDT.verifyLoginDDT(TC003_LoginTestDDT.java:18)oggger - ***** Starting TC_002_LoginTest *****
+23:35:43.766 [main] INFO  testCases.TC003_LoginTestDDT.verifyLoginDDT(TC003_LoginTestDDT.java:80)oggger - ***** Finished TC_002_LoginTest *****
+23:35:43.776 [main] INFO  testCases.TC003_LoginTestDDT.verifyLoginDDT(TC003_LoginTestDDT.java:18)oggger - ***** Starting TC_002_LoginTest *****
+23:35:54.362 [main] INFO  testCases.TC003_LoginTestDDT.verifyLoginDDT(TC003_LoginTestDDT.java:80)oggger - ***** Finished TC_002_LoginTest *****
+23:35:54.377 [main] INFO  testCases.TC003_LoginTestDDT.verifyLoginDDT(TC003_LoginTestDDT.java:18)oggger - ***** Starting TC_002_LoginTest *****
+23:36:04.949 [main] INFO  testCases.TC003_LoginTestDDT.verifyLoginDDT(TC003_LoginTestDDT.java:18)oggger - ***** Starting TC_002_LoginTest *****
+23:36:15.565 [main] INFO  testCases.TC003_LoginTestDDT.verifyLoginDDT(TC003_LoginTestDDT.java:18)oggger - ***** Starting TC_002_LoginTest *****
+23:36:27.017 [main] INFO  testCases.TC003_LoginTestDDT.verifyLoginDDT(TC003_LoginTestDDT.java:80)oggger - ***** Finished TC_002_LoginTest *****
