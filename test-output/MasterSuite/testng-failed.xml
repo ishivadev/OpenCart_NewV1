@@ -6,13 +6,7 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="chrome"/>
-    <groups>
-      <run>
-        <include name="Master"/>
-        <exclude name=""/>
-      </run>
-    </groups>
+    <parameter name="browser" value="microsoftedge"/>
     <classes>
       <class name="testCases.TC002_LoginTest">
         <methods>
@@ -21,6 +15,13 @@
           <include name="setupApp"/>
         </methods>
       </class> <!-- testCases.TC002_LoginTest -->
+      <class name="testCases.TC001_AccountRegistrationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupApp"/>
+          <include name="registerUser"/>
+        </methods>
+      </class> <!-- testCases.TC001_AccountRegistrationTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [MasterSuite] -->
