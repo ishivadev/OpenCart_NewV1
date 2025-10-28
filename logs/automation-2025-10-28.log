@@ -1,0 +1,38 @@
+23:35:41.747 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)oggger - Parsing relationship: /_rels/.rels
+23:35:41.778 [main] INFO  testCases.TC003_LoginTestDDT.verifyLoginDDT(TC003_LoginTestDDT.java:18)oggger - ***** Starting TC_002_LoginTest *****
+23:35:43.766 [main] INFO  testCases.TC003_LoginTestDDT.verifyLoginDDT(TC003_LoginTestDDT.java:80)oggger - ***** Finished TC_002_LoginTest *****
+23:35:43.776 [main] INFO  testCases.TC003_LoginTestDDT.verifyLoginDDT(TC003_LoginTestDDT.java:18)oggger - ***** Starting TC_002_LoginTest *****
+23:35:54.362 [main] INFO  testCases.TC003_LoginTestDDT.verifyLoginDDT(TC003_LoginTestDDT.java:80)oggger - ***** Finished TC_002_LoginTest *****
+23:35:54.377 [main] INFO  testCases.TC003_LoginTestDDT.verifyLoginDDT(TC003_LoginTestDDT.java:18)oggger - ***** Starting TC_002_LoginTest *****
+23:36:04.949 [main] INFO  testCases.TC003_LoginTestDDT.verifyLoginDDT(TC003_LoginTestDDT.java:18)oggger - ***** Starting TC_002_LoginTest *****
+23:36:15.565 [main] INFO  testCases.TC003_LoginTestDDT.verifyLoginDDT(TC003_LoginTestDDT.java:18)oggger - ***** Starting TC_002_LoginTest *****
+23:36:27.017 [main] INFO  testCases.TC003_LoginTestDDT.verifyLoginDDT(TC003_LoginTestDDT.java:80)oggger - ***** Finished TC_002_LoginTest *****
+10:10:41.893 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\shiva\Downloads\Eclipse Work\OpenCart_NV1\grouping.xml"
+10:10:42.063 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\shiva\Downloads\Eclipse Work\OpenCart_NV1\grouping.xml
+
+10:10:46.399 [main] INFO  testCases.TC001_AccountRegistrationTest.registerUser(TC001_AccountRegistrationTest.java:19)oggger - **** Starting TC001_AccountRegistration ****
+10:10:46.412 [main] INFO  testCases.TC001_AccountRegistrationTest.registerUser(TC001_AccountRegistrationTest.java:23)oggger - **** Clicked on 'My Account' ****
+10:10:46.516 [main] INFO  testCases.TC001_AccountRegistrationTest.registerUser(TC001_AccountRegistrationTest.java:25)oggger - **** Clicked on 'Register Account' ****
+10:10:48.208 [main] INFO  testCases.TC001_AccountRegistrationTest.registerUser(TC001_AccountRegistrationTest.java:48)oggger - **** Account creation successful' ****
+10:10:48.209 [main] INFO  testCases.TC001_AccountRegistrationTest.registerUser(TC001_AccountRegistrationTest.java:60)oggger - **** Finished TC001_AccountRegistration ****
+10:10:52.098 [main] INFO  testCases.TC002_LoginTest.verifyLogin(TC002_LoginTest.java:17)oggger - ***** Starting TC_002_LoginTest *****
+10:10:53.605 [main] INFO  testCases.TC002_LoginTest.verifyLogin(TC002_LoginTest.java:45)oggger - ***** Finished TC_002_LoginTest *****
+17:26:12.233 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\shiva\Downloads\Eclipse Work\OpenCart_NV1\grouping.xml"
+17:26:12.449 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\shiva\Downloads\Eclipse Work\OpenCart_NV1\grouping.xml
+
+17:26:17.213 [main] INFO  testCases.TC001_AccountRegistrationTest.registerUser(TC001_AccountRegistrationTest.java:19)oggger - **** Starting TC001_AccountRegistration ****
+17:26:17.231 [main] INFO  testCases.TC001_AccountRegistrationTest.registerUser(TC001_AccountRegistrationTest.java:23)oggger - **** Clicked on 'My Account' ****
+17:26:17.426 [main] INFO  testCases.TC001_AccountRegistrationTest.registerUser(TC001_AccountRegistrationTest.java:25)oggger - **** Clicked on 'Register Account' ****
+17:26:19.365 [main] INFO  testCases.TC001_AccountRegistrationTest.registerUser(TC001_AccountRegistrationTest.java:48)oggger - **** Account creation successful' ****
+17:26:19.367 [main] INFO  testCases.TC001_AccountRegistrationTest.registerUser(TC001_AccountRegistrationTest.java:60)oggger - **** Finished TC001_AccountRegistration ****
+17:26:23.516 [main] INFO  testCases.TC002_LoginTest.verifyLogin(TC002_LoginTest.java:17)oggger - ***** Starting TC_002_LoginTest *****
+17:26:25.169 [main] INFO  testCases.TC002_LoginTest.verifyLogin(TC002_LoginTest.java:45)oggger - ***** Finished TC_002_LoginTest *****
+17:32:27.444 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\shiva\Downloads\Eclipse Work\OpenCart_NV1\grouping.xml"
+17:32:27.720 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\shiva\Downloads\Eclipse Work\OpenCart_NV1\grouping.xml
+
+17:32:30.473 [main] INFO  testCases.TC001_AccountRegistrationTest.registerUser(TC001_AccountRegistrationTest.java:19)oggger - **** Starting TC001_AccountRegistration ****
+17:32:30.485 [main] INFO  testCases.TC001_AccountRegistrationTest.registerUser(TC001_AccountRegistrationTest.java:23)oggger - **** Clicked on 'My Account' ****
+17:32:30.651 [main] INFO  testCases.TC001_AccountRegistrationTest.registerUser(TC001_AccountRegistrationTest.java:25)oggger - **** Clicked on 'Register Account' ****

@@ -3,10 +3,14 @@ package testBase;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
+import java.util.Date;
 import java.util.Properties;
 
 import org.apache.commons.lang3.RandomStringUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -19,11 +23,11 @@ import org.apache.logging.log4j.Logger;  //Log4j package
 
 public class BaseClass {
 
-	public WebDriver driver;
+	public static WebDriver driver;
 	public Logger logger;
 	public Properties p;
 	
-	@BeforeClass
+	@BeforeClass(groups= {"Sanity","Regression","Master"})
 	@Parameters({"os","browser"})
 	public void setupApp(String os, String br) throws IOException
 	{
@@ -52,7 +56,7 @@ public class BaseClass {
 		driver.manage().window().maximize();
 	}
 	
-	@AfterClass
+	@AfterClass(groups= {"Sanity","Regression","Master"})
 	public void tearDown() throws InterruptedException
 	{
 		Thread.sleep(2000);
@@ -61,6 +65,30 @@ public class BaseClass {
 	
 	
 	
+	
+	// User defined methods
+
+	// Capturing screenshot method
+	public String captureScreen(String tname) throws IOException
+	{
+		String timeStamp = new SimpleDateFormat("dd-MMM-yyyy_HH-mm-ss").format(new Date()); // Time stamp
+		//String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date()); // Time stamp
+
+		
+		// For taking full page screenshot
+		// If the 'driver' is NON-STATIC is BaseClass, then below 'driver' will be pick from the object, which object is called 'captureScreen' method. 
+		// Here the 'baseObj' is calling the 'captureScreen' method from ExtentReportManager. 
+		
+		TakesScreenshot ts = (TakesScreenshot) driver;
+		File sourceFile = ts.getScreenshotAs(OutputType.FILE);
+		
+		String targetFilePath = System.getProperty("user.dir") + "\\screenshots\\" + tname + "_" + timeStamp + ".png";
+		File targetFile = new File(targetFilePath); // Storing the file path to 'File' type
+		
+		sourceFile.renameTo(targetFile); // Storing the 'sourceFile' screenshot to 'targetFile' location
+		
+		return targetFilePath; // Returning screenshot's path, path will have the screenshot
+	}
 	
 	
 	

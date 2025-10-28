@@ -3,6 +3,11 @@
 
 <suite name="MasterSuite">
 
+
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager" />
+	</listeners>
+
 	<test thread-count="5" name="Test">
 		
 		<parameter name="os" value="Windows" />
