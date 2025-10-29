@@ -7,6 +7,7 @@
   
   <build>
     <!-- To define the plugin version in your parent POM -->
+    <!-- We run the POM.XML and the POM.XML runs the <testNG.xml>. We used 'plugins' to run the pom.xml file. -->
     <pluginManagement>
      
       <plugins>
@@ -23,7 +24,8 @@
           <version>3.5.3</version>
           	<configuration>
           		<suiteXmlFiles>
-          			<suiteXmlFile>master.xml</suiteXmlFile>
+          			<!-- Which <testNG.xml> file need to run through 'pom.xml'' from outside of the Eclipse -->
+          			<suiteXmlFile>master.xml</suiteXmlFile>	  
           		</suiteXmlFiles>
           	</configuration>
         </plugin>   
@@ -83,7 +85,6 @@
 	</dependency>	
 	
 			
-	
 	<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
 	<dependency>
 	    <groupId>commons-io</groupId>

@@ -1,9 +1,10 @@
-21:04:41.223 [main] INFO  testCases.TC002_LoginTest.verifyLogin(TC002_LoginTest.java:17)oggger - ***** Starting TC_002_LoginTest *****
-21:04:42.724 [main] INFO  testCases.TC002_LoginTest.verifyLogin(TC002_LoginTest.java:45)oggger - ***** Finished TC_002_LoginTest *****
-21:04:52.778 [main] INFO  testCases.TC001_AccountRegistrationTest.registerUser(TC001_AccountRegistrationTest.java:19)oggger - **** Starting TC001_AccountRegistration ****
-21:04:52.784 [main] INFO  testCases.TC001_AccountRegistrationTest.registerUser(TC001_AccountRegistrationTest.java:23)oggger - **** Clicked on 'My Account' ****
-21:04:52.901 [main] INFO  testCases.TC001_AccountRegistrationTest.registerUser(TC001_AccountRegistrationTest.java:25)oggger - **** Clicked on 'Register Account' ****
-21:04:54.995 [main] INFO  testCases.TC001_AccountRegistrationTest.registerUser(TC001_AccountRegistrationTest.java:48)oggger - **** Account creation successful' ****
-21:04:54.995 [main] INFO  testCases.TC001_AccountRegistrationTest.registerUser(TC001_AccountRegistrationTest.java:60)oggger - **** Finished TC001_AccountRegistration ****
-21:05:00.946 [main] INFO  testCases.TC002_LoginTest.verifyLogin(TC002_LoginTest.java:17)oggger - ***** Starting TC_002_LoginTest *****
-21:05:02.294 [main] INFO  testCases.TC002_LoginTest.verifyLogin(TC002_LoginTest.java:45)oggger - ***** Finished TC_002_LoginTest *****
+22:08:37.665 [main] INFO  testCases.TC002_LoginTest.verifyLogin(TC002_LoginTest.java:17)oggger - ***** Starting TC_002_LoginTest *****
+22:08:38.948 [main] INFO  testCases.TC002_LoginTest.verifyLogin(TC002_LoginTest.java:45)oggger - ***** Finished TC_002_LoginTest *****
+22:09:01.822 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\shiva\Downloads\Eclipse Work\OpenCart_NV1\master.xml"
+22:09:04.486 [main] INFO  testCases.TC001_AccountRegistrationTest.registerUser(TC001_AccountRegistrationTest.java:19)oggger - **** Starting TC001_AccountRegistration ****
+22:09:04.499 [main] INFO  testCases.TC001_AccountRegistrationTest.registerUser(TC001_AccountRegistrationTest.java:23)oggger - **** Clicked on 'My Account' ****
+22:09:04.595 [main] INFO  testCases.TC001_AccountRegistrationTest.registerUser(TC001_AccountRegistrationTest.java:25)oggger - **** Clicked on 'Register Account' ****
+22:09:06.331 [main] INFO  testCases.TC001_AccountRegistrationTest.registerUser(TC001_AccountRegistrationTest.java:48)oggger - **** Account creation successful' ****
+22:09:06.332 [main] INFO  testCases.TC001_AccountRegistrationTest.registerUser(TC001_AccountRegistrationTest.java:60)oggger - **** Finished TC001_AccountRegistration ****
+22:09:11.224 [main] INFO  testCases.TC002_LoginTest.verifyLogin(TC002_LoginTest.java:17)oggger - ***** Starting TC_002_LoginTest *****
+22:09:12.515 [main] INFO  testCases.TC002_LoginTest.verifyLogin(TC002_LoginTest.java:45)oggger - ***** Finished TC_002_LoginTest *****
