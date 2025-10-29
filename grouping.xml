@@ -19,7 +19,7 @@
 	</listeners>
 
 
-	<test thread-count="5" name="Test">
+	<test thread-count="5" name="GroupingTest">
 		
 		<parameter name="os" value="Windows" />
 		<parameter name="browser" value="chrome" />

@@ -3,7 +3,6 @@
 
 <suite name="MasterSuite">
 
-
 	<listeners>
 		<listener class-name="utilities.ExtentReportManager" />
 	</listeners>

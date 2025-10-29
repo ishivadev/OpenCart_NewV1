@@ -3,7 +3,6 @@
 
 <suite name="crossBrowserTesting" thread-count="5" parallel="tests">
 
-
 	<listeners>
 		<listener class-name="utilities.ExtentReportManager" />
 	</listeners>
